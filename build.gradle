@@ -22,6 +22,19 @@ dependencies {
     // https://mvnrepository.com/artifact/org.reflections/reflections
     implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'
 
+    // tomcat
+    implementation 'org.apache.tomcat.embed:tomcat-embed-core:10.1.13'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+
+
+    // https://mvnrepository.com/artifact/javax.servlet/jstl
+    implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+    implementation 'javax.servlet.jsp.jstl:jstl-api:1.2'
+
+
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'ch.qos.logback:logback-classic:1.4.11'
+
     //junit
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3';
     testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.9.3';
@@ -31,9 +44,9 @@ dependencies {
 
     // SLF4J API
     testImplementation 'org.slf4j:slf4j-api:1.7.32' // Use the latest version available
-
     // Logback Implementation
-    testImplementation 'ch.qos.logback:logback-classic:1.2.6' // Use the latest version available
+    testImplementation 'ch.qos.logback:logback-classic:1.4.11'
+
 
 }
 

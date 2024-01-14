@@ -1,6 +1,6 @@
 package com.practice.reflectionapi;
 
-import com.practice.reflectionapi.annotation.Controller;
+import com.practice.reflectionapi.annotation.ReflectionController;
 import com.practice.reflectionapi.annotation.Service;
 import com.practice.reflectionapi.model.User;
 import org.assertj.core.api.Assertions;
@@ -19,13 +19,13 @@ import java.util.stream.Collectors;
 /**
  * @Controller 애노테이션이 설정 된 모든 클래스를 찾아서 출력한다.
  **/
-class HomeControllerTest {
+class HomeReflectionControllerTest {
 
-    private static final Logger logger = LoggerFactory.getLogger(HomeControllerTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(HomeReflectionControllerTest.class);
 
     @Test
     void controllerScan(){
-        Set<Class<?>> beans = getTypesAnnotatedWith(List.of(Controller.class, Service.class));
+        Set<Class<?>> beans = getTypesAnnotatedWith(List.of(ReflectionController.class, Service.class));
 
         logger.debug("beans :: ", beans); //slf4j로는 왜 안나옴?
         System.err.println(beans); //println 정상 출력
