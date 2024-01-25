@@ -20,7 +20,7 @@ public class WebApplicationServer {
     public static void main(String[] args) throws LifecycleException {
         String webappDirLocation = "webapps/";
         Tomcat tomcat = new Tomcat();
-        tomcat.setPort(8081);
+        tomcat.setPort(8080);
 
         tomcat.addWebapp("/", new File(webappDirLocation).getAbsolutePath());
         logger.info("path :: ", new File("./" + webappDirLocation).getAbsolutePath());
