@@ -1,8 +1,8 @@
 package com.practice.reflectionapi.common;
 
-import com.practice.reflectionapi.Adapter.HandlerAdapter;
-import com.practice.reflectionapi.Adapter.ModelAndView;
-import com.practice.reflectionapi.Adapter.SimpleControllerHandlerAdapter;
+import com.practice.reflectionapi.adapter.HandlerAdapter;
+import com.practice.reflectionapi.adapter.ModelAndView;
+import com.practice.reflectionapi.adapter.SimpleControllerHandlerAdapter;
 import com.practice.reflectionapi.enums.RequestMethod;
 import com.practice.reflectionapi.handler.AnnotationHandlerMapping;
 import com.practice.reflectionapi.handler.HandlerKey;

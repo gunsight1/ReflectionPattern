@@ -1,4 +1,4 @@
-package com.practice.reflectionapi.Adapter;
+package com.practice.reflectionapi.adapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

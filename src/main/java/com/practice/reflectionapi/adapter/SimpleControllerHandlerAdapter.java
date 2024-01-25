@@ -1,6 +1,5 @@
-package com.practice.reflectionapi.Adapter;
+package com.practice.reflectionapi.adapter;
 
-import ch.qos.logback.core.model.Model;
 import com.practice.reflectionapi.annotation.Controller;
 
 import javax.servlet.http.HttpServletRequest;

@@ -1,7 +1,7 @@
 package com.practice.reflectionapi.common;
 
-import com.practice.reflectionapi.Adapter.HandlerAdapter;
-import com.practice.reflectionapi.Adapter.ModelAndView;
+import com.practice.reflectionapi.adapter.HandlerAdapter;
+import com.practice.reflectionapi.adapter.ModelAndView;
 import com.practice.reflectionapi.handler.AnnotationHandler;
 
 import javax.servlet.http.HttpServletRequest;

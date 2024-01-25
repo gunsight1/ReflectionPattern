@@ -1,4 +1,4 @@
-package com.practice.reflectionapi.Adapter;
+package com.practice.reflectionapi.adapter;
 
 import java.util.Collections;
 import java.util.HashMap;
